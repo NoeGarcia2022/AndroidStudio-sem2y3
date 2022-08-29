@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ControlesRadioGroup_RadioButton"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Controles RadioGroup y RadioButton"
+        android:layout_marginTop="40dp"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_red_dark"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        app:srcCompat="@drawable/img2"
+        android:layout_marginTop="25dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/edt1"
+        android:layout_marginTop="25dp"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/edt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="0"
+        android:inputType="phone"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/edt2"
+        android:layout_marginTop="25dp"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/edt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="0"
+        android:inputType="phone"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <RadioButton
+            android:id="@+id/rSumar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sumar"
+            android:textSize="20sp"
+            />
+
+        <RadioButton
+            android:id="@+id/rRestar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Restar"
+            android:textSize="20sp"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnOperar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="operar"
+        android:text="Operar" />
+
+    <TextView
+        android:id="@+id/tvResul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Resultado"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>

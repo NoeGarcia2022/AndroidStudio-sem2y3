@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Guia Practica Semana2y3</string>
+    <string name="item1">ClickBoton</string>
+    <string name="item2">RadioGroup_RadioButton</string>
+    <string name="item3">CheckBox</string>
+    <string name="item4">Spinner</string>
+    <string name="item5">ListView</string>
+    <string name="item6">ImageButton</string>
+    <string name="item7">ClaseToast</string>
+    <string name="item8">EditText</string>
+    <string name="item9">SegundoActivity</string>
+    <string name="item10">Problema1</string>
+    <string name="item11">ActivityConParametros</string>
+    <string name="item12">SharedPreferences</string>
+    <string name="item13">Problema2</string>
+    <string name="item14">Salir</string>
+    <string name="head">Capturar El Click De Un Botón</string>
+    <string name="tv1">Ingrese el primer valor</string>
+    <string name="tv2">Ingrese el segundo valor</string>
+    <string name="edt1">Ingrese el primer valor</string>
+    <string name="edt2">Ingrese el segundo valor</string>
+    <string name="btnSumar">Sumar</string>
+    <string name="resul">Resultado</string>
+    <string name="tvlistView">Control ListView</string>
+    <string name="tvToast">¿Cuál es el numero que vio?</string>
+    <string name="title_activity_acerca_de">AcercaDe</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+</resources>

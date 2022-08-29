@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ControlSpinner"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Control Spinner"
+        android:layout_marginTop="40dp"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_red_dark"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="119dp"
+        android:layout_marginTop="25dp"
+        app:srcCompat="@drawable/sum" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/edt1"
+        android:layout_marginTop="25dp"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/edt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="0"
+        android:inputType="phone"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/edt2"
+        android:layout_marginTop="25dp"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/edt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="0"
+        android:inputType="phone"/>
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="291dp"
+        android:layout_height="81dp"
+        />
+
+    <Button
+        android:id="@+id/btnOperar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="operar"
+        android:text="Operar" />
+
+    <TextView
+        android:id="@+id/tvResul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Resultado"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp"/>
+
+
+</LinearLayout>
